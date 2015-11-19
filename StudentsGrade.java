@@ -22,12 +22,14 @@ public class StudentsGrade {
 		finalScores=sc.nextFloat();
 		
 		
-		float adverage = (quiz + midTerm + finalScores) / 3;
+		float average = (quiz + midTerm + finalScores) / 3;
 		
-		if (adverage >=90) 
+		if (average >=90) 
 				System.out.println("You got an A");
-		else if(adverage >=70 and <90)
+		else if(average >=70)
 			System.out.println("You got a B");
+		else if(average >=50)
+			System.out.println("you got a c");
 		
 		
 
